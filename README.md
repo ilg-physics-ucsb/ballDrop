@@ -2,7 +2,7 @@
 **DOCUMENTATION WORK IN PROGRESS (W.I.P)**
 
 This contains information regarding the Physics 7L lab measuring acceleration due to gravity using various instruments. 
-What can be found here is the complete documentation of the digital measuring system used at the end of the lab. 
+The complete documentation of the digital measuring system used at the end of the lab can be found here. Includes using the system, LAB setup, and steps to make your own. 
 **User instruction guide, setup guide, hardware CAD, firmware, PCBs, and assembly can be found here.**
 
 # How to use the ball drop measuring system:
@@ -10,20 +10,21 @@ What can be found here is the complete documentation of the digital measuring sy
 ## Componets
 - **Control Unit**: 
 - **Photogate**:
-- **Magnet**: 
+- **Electromagnet**: 
 - **Power Supply**: 9V 5.5mm Barrel Jack Power Supply Rated for > 500mA
 - **Steel Ball** 
 ## Powering it on
-Before plugging in the system it is important to make sure the **photogate** and the **magnet** are properly plugged in using the corresponding color coded cables coming out of the **control unit**. The unit will not work if this is not done before powering it on.
+Before plugging in the system, it's important to make sure the **photogate** and the **magnet** are properly plugged in using the corresponding color-coded cables coming out the **control unit**. The unit will not work if this is not done **before** powering it on.
 
 Ensure a **9v** power supply is plugged into the Control Unit's power port located on the top right of the housing. The unit takes around 5-10 seconds to fully power on. A display message appears on the screen when the device is booted.
 ## Set Ready
-To arm the magnet, press the red button once. The red indicator light will turn off, and the green light will be illuminated, indicating the magnet is magnetized and the device is ready to begin the recording. The OLED screen will also display a "Ready4Drop" message.
-At this point the steel ball is ready to be loaded into slot on the magnet assembly.
+To arm the magnet, press the yellow button once. The LED indicator light will turn green, arming the magnet. Load the steel ball into the **electromagnet** assembly. At this point, ensure that the ball can drop onto a safe surface and that the ball's drop path will pass through the photogate.
+## Disable Ready
+If at any point while the electromagnet is armed you wish to disable it, press the red button and this will remove the ready state. The LED will become RED, signaling it is in its idle state. 
 ## Measure
-Press the green button! The magnet will de-energize and the release the steel ball. 
+Drop the ball using the green button. The magnet will automatically de-energize and drop the ball. 
 ## Reading the Data
-The time in ms. will print out to the OLED display on the top of the unit
+The time, in ms, will print out to the display on the top of the unit. It will remain there until the the magnet is armed again or the **red** button is pressed.
 
 ## Troubleshooting
 
