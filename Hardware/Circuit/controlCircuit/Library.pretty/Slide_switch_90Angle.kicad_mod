@@ -1,0 +1,205 @@
+(footprint "Slide_switch_90Angle"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "CuK miniature slide switch, OS series, SPDT, right angle, http://www.ckswitches.com/media/1428/os.pdf")
+	(tags "switch SPDT")
+	(property "Reference" "SW4"
+		(at 2.787 -2.032 0)
+		(layer "F.SilkS")
+		(uuid "e5ac157d-657f-4ee8-b0e3-ff657bf52a43")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SW_SPDT"
+		(at 2.628 10.922 0)
+		(layer "F.Fab")
+		(uuid "99defb05-aa6c-4525-8bcf-8cf198975f49")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "019e8fb2-c8e6-4c2b-9270-112fecc88bb6")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Switch, single pole double throw"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "55a3165f-6f7f-43cf-a1b6-540fef8a730c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -3.774 3.302)
+		(end 1.39 3.302)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ddca323d-e67e-4761-b912-b4d60fbd17df")
+	)
+	(fp_line
+		(start -3.69 -3.048)
+		(end 9.264 -3.048)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "dfc6867e-f40f-4a1a-9d49-4b772c2513a2")
+	)
+	(fp_line
+		(start 4.946 3.302)
+		(end 9.278 3.302)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7fd54b47-ad0e-47e0-aaea-f5a6dc1b744d")
+	)
+	(fp_rect
+		(start -5.214 -4.064)
+		(end 10.788 10.16)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "13f036d4-f0e0-4685-b99b-94253eaf2f81")
+	)
+	(fp_line
+		(start -3.69 0)
+		(end -0.134 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "7cb7dac0-128c-4a95-97cc-5a8867c7666d")
+	)
+	(fp_line
+		(start 9.264 0)
+		(end 5.708 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "e4d8ad7f-f02d-488d-85c7-72afe3607953")
+	)
+	(fp_rect
+		(start -3.69 -3.302)
+		(end 9.264 3.556)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "11868b9a-8d9b-4304-bc4a-0db98ae0b41b")
+	)
+	(fp_rect
+		(start 1.39 3.556)
+		(end 4.946 9.652)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "e381cbc7-638b-47b4-b298-97c04aae4c02")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 2.787 2.286 0)
+		(layer "F.Fab")
+		(uuid "6922ae0a-4841-43fd-bcd9-74df3e197e18")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+			)
+		)
+	)
+	(pad "" thru_hole oval
+		(at -3.69 0 90)
+		(size 3.302 1.8288)
+		(drill oval 2.286 0.8128)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 45)
+		(uuid "3162fd81-85af-4b01-bf7c-f059f625afa0")
+	)
+	(pad "" thru_hole oval
+		(at 9.264 0 90)
+		(size 3.302 1.8288)
+		(drill oval 2.286 0.8128)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 45)
+		(uuid "ad42c607-81f8-4915-88c2-5c68972c7ae7")
+	)
+	(pad "1" thru_hole circle
+		(at -0.134 0 90)
+		(size 1.778 1.778)
+		(drill 0.8128)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "c2eb58dc-5193-4a83-9b94-c277fd60a793")
+	)
+	(pad "2" thru_hole circle
+		(at 2.787 0 90)
+		(size 1.778 1.778)
+		(drill 0.8128)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "977508a6-6b77-4d1d-a39a-6a4fcbf97685")
+	)
+	(pad "3" thru_hole circle
+		(at 5.708 0 90)
+		(size 1.778 1.778)
+		(drill 0.8128)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "7e54d241-643d-4fe6-bb23-31741c67b410")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Button_Switch_THT.3dshapes/SW_Slide_SPDT_Angled_CK_OS102011MA1Q.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
