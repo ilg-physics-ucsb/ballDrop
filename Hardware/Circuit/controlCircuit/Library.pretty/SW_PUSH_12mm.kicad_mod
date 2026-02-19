@@ -1,0 +1,224 @@
+(footprint "SW_PUSH_12mm"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Generic 6mm SW tactile push button")
+	(tags "tact sw push 6mm")
+	(property "Reference" "SW1"
+		(at 0.508 -2 0)
+		(layer "F.SilkS")
+		(uuid "f7787b9f-8771-4d41-89ec-171a20db9631")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SW_MEC_5E"
+		(at 0.762 6.7 0)
+		(layer "F.Fab")
+		(uuid "666f7d29-8352-4db5-aaaf-eef91b7d2738")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=1371"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "191e7966-3539-4e60-af5e-aa02b993821c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "MEC 5E single pole normally-open tactile switch"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f8b8f992-9afe-411c-a38a-95048a4886ea")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -5.588 1.5)
+		(end -5.588 3)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6f18aad1-b9d9-4d59-a493-80ac0651a72d")
+	)
+	(fp_line
+		(start -1.988 5.5)
+		(end 2.512 5.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3d042321-496e-4881-8f71-5499ceb2f406")
+	)
+	(fp_line
+		(start 2.758 -1)
+		(end -1.742 -1)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "70da505a-404d-415b-a0ad-fdfe7e473103")
+	)
+	(fp_line
+		(start 6.75 3)
+		(end 6.75 1.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "fe6a4c66-7b57-4594-ab40-aaca3799bbdc")
+	)
+	(fp_rect
+		(start -6.35 -3.81)
+		(end 7.872 8.19)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "9de2edc7-97bb-4b07-851b-2b5c9ccea957")
+	)
+	(fp_line
+		(start -5.08 -0.75)
+		(end 3.25 -0.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9d6ea2c8-8a52-4957-890e-4f87edee4540")
+	)
+	(fp_line
+		(start -5.08 5.25)
+		(end -5.08 -0.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8422f517-6f63-48b1-b555-f988a0e80e08")
+	)
+	(fp_line
+		(start 3.25 -0.75)
+		(end 6.25 -0.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1c477b5b-5359-4288-bd86-dcdf4d950bdb")
+	)
+	(fp_line
+		(start 6.25 -0.75)
+		(end 6.25 5.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c5744b0b-4d8a-49e2-87a6-a1b0d80fe9e1")
+	)
+	(fp_line
+		(start 6.25 5.25)
+		(end -5.08 5.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7bae9242-7917-435d-963a-f736e56ec7c2")
+	)
+	(fp_circle
+		(center 0.524436 2.25)
+		(end -1.475564 2.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "166328cf-0cfc-4b12-aa06-e57b9a4bab87")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0.524436 2.25 0)
+		(layer "F.Fab")
+		(uuid "be68a079-c4f6-4bc2-a704-cec0352e5c64")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -5.08 0 90)
+		(size 2 2)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "5b769781-4576-45ac-9508-b31f67c810ef")
+	)
+	(pad "1" thru_hole circle
+		(at 6.5 0 90)
+		(size 2 2)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "4a6d506c-d90f-4c5a-afcc-41640df3636e")
+	)
+	(pad "2" thru_hole circle
+		(at -5.08 4.5 90)
+		(size 2 2)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "050648a4-60ac-43cd-bd57-f927d150a098")
+	)
+	(pad "2" thru_hole circle
+		(at 6.5 4.5 90)
+		(size 2 2)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "dc980b68-fb09-4b3c-8227-009a1e7da641")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Button_Switch_THT.3dshapes/SW_PUSH_6mm.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
