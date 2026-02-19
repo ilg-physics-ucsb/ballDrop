@@ -470,8 +470,8 @@
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.508,
-        "via_diameter": 0.6,
-        "via_drill": 0.3,
+        "via_diameter": 2.032,
+        "via_drill": 1.016,
         "wire_width": 6
       }
     ],
@@ -490,7 +490,7 @@
       "plot": "D:/BallDrop/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "D:/Photogate/20AL_Pendulum_Photogate_PCB.step",
+      "step": "phoogateBallDrop.step",
       "svg": "",
       "vrml": ""
     },
