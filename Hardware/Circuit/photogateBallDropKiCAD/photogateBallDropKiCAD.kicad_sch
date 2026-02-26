@@ -2010,22 +2010,10 @@
 		(uuid "5d2edb00-e139-4326-95c3-be0b1974b94a")
 	)
 	(junction
-		(at 85.09 30.48)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6a4562ee-f0e1-4d6c-b382-f6e778911e91")
-	)
-	(junction
 		(at 58.42 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6d976884-5918-4ef7-bc7e-102f94c0ab93")
-	)
-	(junction
-		(at 85.09 45.72)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "829bd6b8-f99a-4a8e-9256-24664341f845")
 	)
 	(junction
 		(at 184.15 133.35)
@@ -2209,16 +2197,6 @@
 			(type default)
 		)
 		(uuid "4dde892f-e8ec-4b3c-8e04-93186ef1f121")
-	)
-	(wire
-		(pts
-			(xy 95.25 41.91) (xy 95.25 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "50f83b08-a9fa-4a09-8cc0-b31da948af48")
 	)
 	(wire
 		(pts
@@ -2432,16 +2410,6 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 30.48) (xy 85.09 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "af4790e3-b68f-4eba-98c4-e8827014346e")
-	)
-	(wire
-		(pts
 			(xy 58.42 101.6) (xy 58.42 93.98)
 		)
 		(stroke
@@ -2469,16 +2437,6 @@
 			(type default)
 		)
 		(uuid "b7d0a628-f490-472d-ba51-35ba85939dc0")
-	)
-	(wire
-		(pts
-			(xy 95.25 45.72) (xy 85.09 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c5f1246d-8bc7-4bd1-ab04-7a18a1acd006")
 	)
 	(wire
 		(pts
@@ -2669,16 +2627,6 @@
 			(type default)
 		)
 		(uuid "efa0d330-2780-4ecf-a9d0-21a69c2d048c")
-	)
-	(wire
-		(pts
-			(xy 95.25 34.29) (xy 95.25 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f72a9701-a307-40aa-a4eb-51192f9bd9a4")
 	)
 	(wire
 		(pts
@@ -2964,7 +2912,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 124.206 153.924 90)
 			(effects
 				(font
@@ -3168,7 +3116,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 172.974 137.414 90)
 			(effects
 				(font
@@ -3733,7 +3681,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 122.174 145.796 90)
 			(effects
 				(font
@@ -4205,7 +4153,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 198.374 148.844 90)
 			(effects
 				(font
@@ -4693,7 +4641,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 143.764 150.876 90)
 			(effects
 				(font
@@ -6238,76 +6186,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 95.25 38.1 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a6ddea6a-723c-42b1-93e2-54d7dd7bac91")
-		(property "Reference" "C11"
-			(at 99.06 36.8299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1u"
-			(at 99.06 39.3699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_THT:C_Rect_L7.2mm_W2.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2"
-			(at 96.2152 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 95.25 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 95.25 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "ad812aa1-16a7-4f40-badc-fae7150d40ce")
-		)
-		(pin "1"
-			(uuid "63f371ac-4ada-4e82-a7b3-fe5179f43a37")
-		)
-		(instances
-			(project "photogateBallDropKiCAD"
-				(path "/28efec4c-6083-4d69-b89b-ab16ee58a10e"
-					(reference "C11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_US")
 		(at 44.45 142.24 0)
 		(unit 1)
@@ -6672,7 +6550,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 49.784 85.344 90)
 			(effects
 				(font
@@ -7564,7 +7442,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 103.886 145.034 90)
 			(effects
 				(font
